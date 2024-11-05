@@ -1,6 +1,6 @@
 {
 	"name": "@nasontech/nuxt-logger",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Nuxt logger",
 	"repository": {
 		"type": "git",
@@ -20,6 +20,9 @@
 	"files": [
 		"dist"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"prepack": "nuxt-module-build build",
 		"dev": "nuxi dev playground",
