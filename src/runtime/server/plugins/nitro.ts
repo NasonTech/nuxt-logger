@@ -1,4 +1,5 @@
 import { useLogger } from '../utils/useLogger.js'
+import { defineNitroPlugin, defineEventHandler } from '#imports'
 
 const logger = useLogger()
 
